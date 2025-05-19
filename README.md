@@ -111,9 +111,9 @@ Integrated with Azure Monitor for:
   - Real-time insights
 
 # ✅ Outcomes
-  ## End-to-end automation of build → test → deploy
-  ## Improved code quality through testing and approval gates
-  ## Real-time production monitoring using Azure-native tools
+  ### End-to-end automation of build → test → deploy
+  ### Improved code quality through testing and approval gates
+  ### Real-time production monitoring using Azure-native tools
 
 # 🏷️ Tags
-##   Azure DevOps CI/CD .NET App Service YAML Application Insights Cloud Automation
+###   Azure DevOps CI/CD .NET App Service YAML Application Insights Cloud Automation
