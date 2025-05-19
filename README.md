@@ -110,10 +110,10 @@ Integrated with Azure Monitor for:
   - Failure tracking
   - Real-time insights
 
-✅ Outcomes
+# ✅ Outcomes
   # End-to-end automation of build → test → deploy
   # Improved code quality through testing and approval gates
   # Real-time production monitoring using Azure-native tools
 
-🏷️ Tags
-Azure DevOps CI/CD .NET App Service YAML Application Insights Cloud Automation
+# 🏷️ Tags
+##   Azure DevOps CI/CD .NET App Service YAML Application Insights Cloud Automation
