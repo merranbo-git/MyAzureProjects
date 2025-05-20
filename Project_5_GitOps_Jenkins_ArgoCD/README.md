@@ -52,6 +52,7 @@ This project demonstrates a full DevOps pipeline for a Java microservice using o
   - SonarQube analysis
   - Docker image build and push to Docker Hub
   - Update `deployment.yml` in Git with new image tag
+- 🔧Pipeline Script File: [Jenkinsfile](Jenkinsfile.txt)
 
 ### 🚀 CD Pipeline (GitOps via Argo CD)
 - Argo CD installed on AKS
