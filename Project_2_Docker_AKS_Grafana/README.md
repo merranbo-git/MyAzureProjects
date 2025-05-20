@@ -34,17 +34,16 @@ This project demonstrates how to automate the deployment of a containerized .NET
 ## ⚙️ Solution Summary
 
 ### 1️⃣ Containerize the Application
-
 - Use DockerFile to Containerize the .net application
-	
-	🔧Dockerfile: [Dockerfile](Project2_Dockerfile.txt)
+
+  🔧Dockerfile: [Dockerfile](Project2_Dockerfile.txt)
 
 ### 2️⃣ CI/CD Pipeline (Azure DevOps)
 - Setup the CI/CD to build & push the Docker Image to ACR
 - Create Helm Charts
 - Deploy the Images to different namespaces: **Dev**, **Staging**, **Production**
 
-	🔧 CI/CD Yaml Snippet: [azurepipelines.yml](azurepipelines.yml)
+  🔧 CI/CD Yaml Snippet: [azurepipelines.yml](azurepipelines.yml)
 
 # ✅ Validation Steps
 - Verify Docker image in Azure Container Registry
