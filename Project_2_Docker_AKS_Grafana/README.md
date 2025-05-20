@@ -73,4 +73,4 @@ This project demonstrates how to automate the deployment of a containerized .NET
    ### [Project2_Report](Report_Project2.pdf)
   
 # 🏷️ Tags
-   ### Azure DevOps Docker Helm Kubernetes AKS .NET CI/CD Observability Prometheus Grafana
+   `Azure` `DevOps` `Docker` `Helm` `Kubernetes` `AKS` `.NET` `CI/CD` `Observability` `Prometheus` `Grafana`
