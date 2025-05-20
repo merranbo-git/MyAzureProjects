@@ -67,7 +67,7 @@ This project demonstrates how to automate the deployment of a containerized .NET
   	- Response times
 
 # ✅ Outcomes
-  ### End-to-end automation of build → test → deploy a containarized application
+  ### End-to-end automation of build → test → deploy a containarized .Net application
   ### Deploy to Azure Kubernetes Service (AKS) using Azure DevOps and Helm Chart
   ### Real-time production monitoring using Azure Monitor, Prometheus, and Grafana
 
