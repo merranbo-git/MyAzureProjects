@@ -74,6 +74,13 @@ This project demonstrates a full DevOps pipeline for a Java microservice using o
 - ✅ Kubernetes app runs on AKS with correct version
 - ✅ Grafana dashboard displays real-time metrics
 
+---
+
+# 📸 Report & Screenshots
+   ### [Project5_Report](Report_Project5.pdf)
+
+---
+
 ### 🏷️ Tags
 `Jenkins` `CI/CD` `GitOps` `Argo CD` `Java` `SonarQube` `Docker` `AKS` `Kubernetes` `Prometheus` `Grafana`
 
