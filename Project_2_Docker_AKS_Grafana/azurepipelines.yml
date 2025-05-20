@@ -1,0 +1,41 @@
+trigger:
+- master
+
+variables:
+  dockerRegistryServiceConnection: '1da2fadb-236f-4fe3-9b9d-1257a81b20d0'
+  azureSubscription: '3f48112c-a56d-44e0-9a80-1ed5fbce3aac'
+  imageRepository: 'blazorapp1'
+  containerRegistry: 'bcpp2.azurecr.io'
+  dockerfilePath: '$(Build.SourcesDirectory)/BlazorApp1/Dockerfile'
+  tag: 'latest'
+  vmImageName: 'ubuntu-latest'
+
+stages:
+- stage: Build
+  jobs:
+  - job: Build
+    steps:
+    - task: Docker@2
+      inputs:
+        containerRegistry: 'bcpp2'
+        repository: 'blazorapp1'
+        command: 'buildAndPush'
+        Dockerfile: '**/Dockerfile'
+        tags: $(tag)
+
+- stage: Deploy
+  jobs:
+  - job: Deploy
+    steps:
+    - task: HelmInstaller@1
+      inputs:
+        helmVersionToInstall: 'latest'
+
+    - task: AzureCLI@2
+      inputs:
+        azureSubscription: 'Azure subscription 1(3f48112c-a56d-44e0-9a80-1ed5fbce3aac)'
+        scriptType: 'bash'
+        scriptLocation: 'inlineScript'
+        inlineScript: |
+          az aks get-credentials --resource-group NCPL --name kubecluster --overwrite-existing
+          helm upgrade --install myblazorapp1 ./myblazorhelmchart
