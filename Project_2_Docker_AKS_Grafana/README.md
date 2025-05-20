@@ -54,17 +54,17 @@ This project demonstrates how to automate the deployment of a containerized .NET
 
 # 📊 Monitoring & Observability
 ### 🔹 Azure Monitor + Application Insights
-	- Enabled metrics for AKS and container workloads
-
+- Enabled metrics for AKS and container workloads
+  
 ### 🔹 Prometheus
-	- Tracks custom and system metrics
-
+- Tracks custom and system metrics
+  
 ### 🔹 Grafana
-	- Connected to Prometheus
-	- Dashboard created for:
-		- Pod performance
-		- Resource usage
-		- Response times
+- Connected to Prometheus
+- Dashboard created for:
+	- Pod performance
+ 	- Resource usage
+  	- Response times
 
 # ✅ Outcomes
   ### End-to-end automation of build → test → deploy a containarized application
