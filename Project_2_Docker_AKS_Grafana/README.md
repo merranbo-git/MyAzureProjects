@@ -17,9 +17,7 @@ This project demonstrates how to automate the deployment of a containerized .NET
 ---
 
 ## 🏗️ Architecture Diagram
-
-![Architecture Diagram](../Architecture_Diagrams/Project2.png) <!-- Update this path if needed -->
-
+![Architecture Diagram](../Architecture_Diagrams/Project2.png)
 ---
 
 ## 🔧 Prerequisites
