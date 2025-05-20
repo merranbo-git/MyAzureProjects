@@ -37,7 +37,7 @@ This project demonstrates how to automate the deployment of a containerized .NET
 
 - Use DockerFile to Containerize the .net application
 	
-	🔧Dockerfile: [Dockerfile](Project2_Dockerfile)
+	🔧Dockerfile: [Dockerfile](Project2_Dockerfile.txt)
 
 ### 2️⃣ CI/CD Pipeline (Azure DevOps)
 - Setup the CI/CD to build & push the Docker Image to ACR
@@ -54,13 +54,13 @@ This project demonstrates how to automate the deployment of a containerized .NET
 - Access the app using the Load Balancer IP:
 
 # 📊 Monitoring & Observability
-###🔹 Azure Monitor + Application Insights
+### 🔹 Azure Monitor + Application Insights
 	- Enabled metrics for AKS and container workloads
 
-###🔹 Prometheus
+### 🔹 Prometheus
 	- Tracks custom and system metrics
 
-###🔹 Grafana
+### 🔹 Grafana
 	- Connected to Prometheus
 	- Dashboard created for:
 		- Pod performance
@@ -73,7 +73,7 @@ This project demonstrates how to automate the deployment of a containerized .NET
   ### Real-time production monitoring using Azure Monitor, Prometheus, and Grafana
 
 # 📸 Report & Screenshots
-	### [Project2_Report](Report_Project2.pdf)
+   ### [Project2_Report](Report_Project2.pdf)
   
 # 🏷️ Tags
-	###  Azure DevOps Docker Helm Kubernetes AKS .NET CI/CD Observability Prometheus Grafana
+   ### Azure DevOps Docker Helm Kubernetes AKS .NET CI/CD Observability Prometheus Grafana
