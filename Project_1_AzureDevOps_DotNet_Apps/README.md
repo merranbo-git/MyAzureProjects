@@ -50,8 +50,7 @@ This project demonstrates how to implement a full CI/CD pipeline using Azure Dev
   - Unit test with `DotNetCoreCLI`
   - Publish build artifacts
 
-🔧 Sample YAML Snippet
-![YAML Snippet](Project1.yml)
+🔧 Sample YAML Snippet: Project1.yml
 
 ### 3️⃣ Continuous Deployment (CD)
 Separate release pipelines for each environment:
