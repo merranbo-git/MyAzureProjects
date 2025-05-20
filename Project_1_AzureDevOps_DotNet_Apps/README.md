@@ -19,7 +19,7 @@ This project demonstrates how to implement a full CI/CD pipeline using Azure Dev
 
 ## 🏗️ Architecture Diagram
 
-> Architecture_Diagrams/Project1.png
+> ![Architecture Diagram](../Architecture_Diagrams/Project1.png)
 
 ---
 
