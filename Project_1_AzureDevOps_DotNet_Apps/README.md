@@ -84,4 +84,4 @@ Integrated with Azure Monitor for:
   ### [Project1_Report](Report_Project1.pdf)
   
 # 🏷️ Tags
-###   Azure DevOps CI/CD .NET App Service YAML Application Insights Cloud Automation
+`Azure DevOps` `CI/CD` `.NET` `App Service` `YAML` `Application Insights` `Cloud Automation`
