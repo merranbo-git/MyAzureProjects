@@ -51,7 +51,7 @@ This project demonstrates how to implement a full CI/CD pipeline using Azure Dev
   - Publish build artifacts
 
 🔧 Sample YAML Snippet
-![YAML Snippet](Project_1_AzureDevOps_DotNet_Apps/Project1.yml)
+![YAML Snippet](Project1.yml)
 
 ### 3️⃣ Continuous Deployment (CD)
 Separate release pipelines for each environment:
