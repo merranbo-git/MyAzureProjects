@@ -51,38 +51,7 @@ This project demonstrates how to implement a full CI/CD pipeline using Azure Dev
   - Publish build artifacts
 
 🔧 Sample YAML Snippet
-trigger:
-  branches:
-    include:
-      - master
-      - dev
-      - staging
-
-pool:
-  vmImage: 'windows-latest'
-
-variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
-
-steps:
-- task: NuGetToolInstaller@1
-- task: NuGetCommand@2
-  inputs:
-    command: 'restore'
-    restoreSolution: '$(solution)'
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true ...'
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'test'
-    projects: '**/*[Tt]est*/*.csproj'
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+![YAML Snippet](Project_1_AzureDevOps_DotNet_Apps/Project1.yml)
 
 ### 3️⃣ Continuous Deployment (CD)
 Separate release pipelines for each environment:
