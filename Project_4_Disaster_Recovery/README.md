@@ -92,6 +92,9 @@ This project demonstrates how to implement a **highly available and fault-tolera
 
 ---
 
+# 📸 Report & Screenshots
+   ### [Project4_Report](Report_Project4.pdf)
+
 ## 🏷️ Tags
 
 `Azure` `Traffic Manager` `Geo-Replication` `High Availability` `Azure SQL` `Disaster Recovery` `Azure Monitor` `DevOps`
