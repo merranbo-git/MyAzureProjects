@@ -80,8 +80,8 @@ Integrated with Azure Monitor for:
   ### Improved code quality through testing and approval gates
   ### Real-time production monitoring using Azure-native tools
 
-# 📸 Screenshots
-  ### Final Report with screenshot: [Project1_Report](Report_Project1.pdf)
+# 📸 Report & Screenshots
+  ### [Project1_Report](Report_Project1.pdf)
   
 # 🏷️ Tags
 ###   Azure DevOps CI/CD .NET App Service YAML Application Insights Cloud Automation
