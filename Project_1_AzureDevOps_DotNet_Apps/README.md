@@ -1,4 +1,3 @@
-# MyAzureProjects - Project 1
 # CI/CD Pipeline for .NET Web Application using Azure DevOps
 
 ## 🚀 Project Overview
