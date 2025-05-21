@@ -94,7 +94,8 @@ Integrated with Azure Monitor for:
 ├── tests/
 │   └── WebApp.Tests/        # Unit tests
 ├── azure-pipelines.yml      # CI pipeline definition
-└── README.md                # Project documentation```
+└── README.md                # Project documentation
+```
 
 ---
 
