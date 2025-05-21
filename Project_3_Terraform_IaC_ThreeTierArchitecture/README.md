@@ -32,13 +32,13 @@ This project demonstrates how to implement **Infrastructure as Code (IaC)** usin
 
 ## 🧰 Tools & Technologies
 
-| Tool            | Purpose                                  |
-|------------------|-------------------------------------------|
-| Terraform        | Infrastructure as Code                   |
-| Azure DevOps     | CI/CD pipeline orchestration             |
+| Tool             | Purpose                                    |
+|------------------|--------------------------------------------|
+| Terraform        | Infrastructure as Code                     |
+| Azure DevOps     | CI/CD pipeline orchestration               |
 | Azure Resources  | VMs, VNets, NSGs, VMSS, App Gateway, MySQL |
-| Azure Key Vault  | Secret management                        |
-| Workspaces       | Multi-environment deployments            |
+| Azure Key Vault  | Secret management                          |
+| Workspaces       | Multi-environment deployments              |
 
 ---
 
@@ -55,6 +55,7 @@ This project demonstrates how to implement **Infrastructure as Code (IaC)** usin
 
 ## 📂 Repository Structure
 
+```
 bcpp3-terraform/
 ├── main.tf
 ├── variables.tf
@@ -68,6 +69,7 @@ bcpp3-terraform/
 │ ├── web-ssh-key.pub
 │ └── app-ssh-key.pub
 └── README.md
+```
 
 ---
 
@@ -79,7 +81,8 @@ bcpp3-terraform/
 ### 🔁 Pipeline Stages
 
 *Sample YAML Snippet:*
-```stages:
+```
+stages:
   - stage: Dev
     variables:
       env: 'Dev'
@@ -98,7 +101,8 @@ bcpp3-terraform/
     variables:
       env: 'Prod'
       bkkey: 'prod.terraform.tfstate'
-      varfile: 'A_Prod.tfvars'```
+      varfile: 'A_Prod.tfvars'
+```
 
 ---
 
