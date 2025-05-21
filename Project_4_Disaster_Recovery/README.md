@@ -83,6 +83,22 @@ This project demonstrates how to implement a **highly available and fault-tolera
 
 ---
 
+# 📂 Repository Structure 
+```
+BCP-P4/
+├── BlazorApp1/
+│   ├── Dockerfile
+│   └── *.csproj
+├── myblazorhelmchart/
+│   ├── values.yaml
+│   └── templates/
+├── azure-pipelines.yml
+└── README.md
+```
+`Note: I am reusing the same .Net application used in Project 2, hence following the same folder structure.`
+
+---
+
 ## ✅ Outcome
 
 - Traffic is automatically routed to the healthy region during failures

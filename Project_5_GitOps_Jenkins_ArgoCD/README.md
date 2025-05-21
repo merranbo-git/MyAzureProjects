@@ -43,6 +43,8 @@ This project demonstrates a full DevOps pipeline for a Java microservice using o
 - Install and configure SonarQube using Docker
 - Configure Jenkins and SonarQube dashboards
 
+---
+
 ### 🔁 CI Pipeline (Jenkins)
 
 - Triggered on GitHub push
@@ -54,10 +56,14 @@ This project demonstrates a full DevOps pipeline for a Java microservice using o
   - Update `deployment.yml` in Git with new image tag
 - 🔧Pipeline Script File: [Jenkinsfile](Jenkinsfile.txt)
 
+---
+
 ### 🚀 CD Pipeline (GitOps via Argo CD)
 - Argo CD installed on AKS
 - Configured to watch the Git repo for deployment manifest changes
 - Automatically deploys updated Docker image using `deployment.yml`
+
+---
 
 ### 📊 Monitoring & Observability
 - Prometheus installed in AKS for metric collection
@@ -65,6 +71,19 @@ This project demonstrates a full DevOps pipeline for a Java microservice using o
 - CPU, Memory usage
 - Pod health
 - Response time, errors
+
+---
+
+# 📂 Repository Structure 
+
+```
+BCP-P5/
+├── java-maven-sonar-argocd-helm-k8s/
+│   ├── spring-boot-app/  			  # Java app source
+│       └── JenkinsFile               # Jenkins pipeline
+│   ├── spring-boot-app-manifests/    # Kubernetes manifests   
+├── README.md
+```
 
 ### 🔍 Validation Checklist
 - ✅ Jenkins pipeline runs successfully

@@ -52,21 +52,29 @@ This project demonstrates how to implement a full CI/CD pipeline using Azure Dev
 
 🔧 Sample YAML Snippet: [`Project1.yml`](Project1.yml)
 
+---
+
 ### 3️⃣ Continuous Deployment (CD)
 Separate release pipelines for each environment:
   - Dev: Automatic deployment on build success
   - Staging: Triggered after successful Dev deployment
   - Production: Triggered post-manual approval
 
+---
+
 ### 4️⃣ Manual Approval Gates
   - Configured pre-deployment approval for Production environment
   - Ensures controlled and verified releases
+
+---
 
 ### 5️⃣ Execution and Validation
 Code push to dev triggers:
   - Build pipeline → Unit Tests → Artifact creation
   - Dev → Staging → Manual Approval → Production
 Verified deployment via app service URLs
+
+---
 
 ### 6️⃣ Monitoring
 Enabled Application Insights in the Production slot
@@ -75,13 +83,32 @@ Integrated with Azure Monitor for:
   - Failure tracking
   - Real-time insights
 
+---
+
+# 📂 Repository Structure 
+
+```
+/newlocalrepo
+├── src/
+│   └── WebApp/              # .NET web app source code
+├── tests/
+│   └── WebApp.Tests/        # Unit tests
+├── azure-pipelines.yml      # CI pipeline definition
+└── README.md                # Project documentation```
+
+---
+
 # ✅ Outcomes
   ### End-to-end automation of build → test → deploy
   ### Improved code quality through testing and approval gates
   ### Real-time production monitoring using Azure-native tools
 
+---
+
 # 📸 Report & Screenshots
   ### [Project1_Report](Report_Project1.pdf)
-  
+
+---
+ 
 # 🏷️ Tags
 `Azure DevOps` `CI/CD` `.NET` `App Service` `YAML` `Application Insights` `Cloud Automation`

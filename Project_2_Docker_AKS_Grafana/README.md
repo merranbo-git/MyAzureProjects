@@ -43,6 +43,23 @@ This project demonstrates how to automate the deployment of a containerized .NET
 
   🔧 CI/CD Yaml Snippet: [azurepipelines.yml](azurepipelines.yml)
 
+---
+
+# 📂 Repository Structure 
+
+```
+BCP-P2/
+├── BlazorApp1/
+│   ├── Dockerfile
+│   └── *.csproj
+├── myblazorhelmchart/
+│   ├── values.yaml
+│   └── templates/
+├── azure-pipelines.yml
+└── README.md
+```
+---
+
 # ✅ Validation Steps
 - Verify Docker image in Azure Container Registry
 - Confirm deployment to AKS namespace using the below commands:
@@ -50,10 +67,11 @@ This project demonstrates how to automate the deployment of a containerized .NET
 	- kubectl get services
 - Access the app using the Load Balancer IP:
 
+---
+
 # 📊 Monitoring & Observability
 ### 🔹 Azure Monitor + Application Insights
-- Enabled metrics for AKS and container workloads
-  
+- Enabled metrics for AKS and container workloads 
 ### 🔹 Prometheus
 - Tracks custom and system metrics
   
@@ -63,14 +81,20 @@ This project demonstrates how to automate the deployment of a containerized .NET
 	- Pod performance
  	- Resource usage
   	- Response times
+	
+---
 
 # ✅ Outcomes
   ### End-to-end automation of build → test → deploy a containarized .Net application
   ### Deploy to Azure Kubernetes Service (AKS) using Azure DevOps and Helm Chart
   ### Real-time production monitoring using Azure Monitor, Prometheus, and Grafana
 
+---
+
 # 📸 Report & Screenshots
    ### [Project2_Report](Report_Project2.pdf)
-  
+
+---
+ 
 # 🏷️ Tags
    `Azure` `DevOps` `Docker` `Helm` `Kubernetes` `AKS` `.NET` `CI/CD` `Observability` `Prometheus` `Grafana`
